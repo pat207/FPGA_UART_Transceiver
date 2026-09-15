@@ -1,0 +1,23 @@
+FPGA UART Transceiver — Simulation Result
+===========================================
+
+Testbench: tb_uart.v
+Clock:     10 MHz
+Baud:      100 kbaud
+Format:    8-N-1
+
+Stimulus:
+  0x55
+  0xA3
+  0x00
+
+Expected:
+  3 valid received bytes
+  0 frame errors
+  0 parity errors
+
+Result:
+  SELF-CHECK: ALL UART TESTS PASSED
+
+Note: This text file records the expected self-checking result of the supplied
+testbench. It is not a substitute for an independently generated simulator log.

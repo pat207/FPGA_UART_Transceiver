@@ -1,0 +1,5 @@
+Project: FPGA-Based UART Transceiver Design
+Basis: uploaded FPGA_UART_Project.pdf
+Default target example: Basys 3 / Artix-7
+HDL: Verilog
+Simulation: self-checking testbench + VCD generation
