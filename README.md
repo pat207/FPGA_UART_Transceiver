@@ -81,7 +81,7 @@ For a PC terminal, configure the terminal to match the RTL baud/parity/data/stop
 
 The RTL and testbench are provided as a portfolio-ready starting project. The repository should only claim synthesis, timing closure, and physical FPGA validation after those steps have actually been run on the target board.
 
-## Resume/CV bullet
+
 
 > Designed and verified a parameterized FPGA-based UART transceiver in Verilog HDL, supporting configurable baud rates, optional parity, start/stop framing, self-checking simulation, and FPGA-oriented timing/constraint analysis.
 
